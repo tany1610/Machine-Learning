@@ -40,3 +40,9 @@ plt.title("Salary by Level (Polynomial Regression)")
 plt.xlabel("Level")
 plt.ylabel("Salary")
 plt.show()
+
+# Predicting new data Linear Regression
+print("Linear regression prediction of level 6.5:", regressor.predict([[6.5]]))
+
+# Predicting new data Polynomial Regression
+print("Polynomial regression prediction of level 6.5:",regressor2.predict(regressor_poly.fit_transform([[6.5]])))
