@@ -1,6 +1,7 @@
 # Machine Learning A-Z Udemy
 # Content
-## Section 1 (Welcome)
+## PART 1 - Data Preprocessing
+### Section 1 (Welcome)
 1. Applications of Machine Learning
 2. Why Machine Learning is the Future
 3. Important notes, tips & tricks for this course
@@ -10,7 +11,7 @@
 7. Update: Recommended Anaconda Version
 8. Installing R and R Studio (Mac, Linux & Windows)
 9. BONUS: Meet your instructors
-## Section 2 (Data Preprocessing)
+### Section 2 (Data Preprocessing)
 10. Welcome to Part 1 - Data Preprocessing
 11. Get the dataset
 12. Importing the Libraries
@@ -23,7 +24,8 @@
 19. Feature Scaling
 20. And here is our Data Preprocessing Template!
 Quiz 1: Data Preprocessing
-## Section 3/4 (Regression)
+## PART 2 - Regression
+### Section 3/4 (Simple Linear Regression)
 22. How to get the dataset
 23. Dataset + Business Problem Description
 24. Simple Linear Regression Intuition - Step 1
@@ -60,4 +62,38 @@ Quiz 2: Simple Linear Regression
 53. Multiple Linear Regression in R - Backward Elimination - Homework Solution
 54. Multiple Linear Regression in R - Automatic Backward Elimination
 Quiz 3: Multiple Linear Regression
-## Section 6 (Polynomial Regression) [CURRENT]
+### Section 6 (Polynomial Regression)
+55. Polynomial Regression Intuition
+56. How to get the dataset
+57. Polynomial Regression in Python - Step 1
+58. Polynomial Regression in Python - Step 2
+59. Polynomial Regression in Python - Step 3
+60. Polynomial Regression in Python - Step 4
+61. Python Regression Template
+62. Polynomial Regression in R - Step 1
+63. Polynomial Regression in R - Step 2
+64. Polynomial Regression in R - Step 3
+65. Polynomial Regression in R - Step 4
+66. R Regression Template
+### Section 7 (Support Vector Regression)
+67. How to get the dataset
+68. SVR Intuition
+69. SVR in Python
+70. SVR in R
+### Section 8 (Decision Tree Regression) [CURRENT]
+71. Decision Tree Regression Intuition
+72. How to get the dataset
+73. Decision Tree Regression in Python
+74. Decision Tree Regression in R
+### Section 9 (Random Forest Regression)
+75. Random Forest Regression Intuition
+76. How to get the dataset
+77. Random Forest Regression in Python
+78. Random Forest Regression in R
+### Section 10 (Evaluating Regression Models Performance)
+79. R-Squared Intuition
+80. Adjusted R-Squared Intuition
+81. Evaluating Regression Models Performance - Homework's Final Part
+82. Interpreting Linear Regression Coefficients
+83. Conclusion of Part 2 - Regression
+## PART 3 - Classification
