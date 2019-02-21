@@ -23,7 +23,7 @@ X_test = sc_X.transform(X_test)
 
 # Fitting the Classifier to the dataset
 from sklearn.ensemble import RandomForestClassifier
-classifier = RandomForestClassifier(n_estimators=10)
+classifier = RandomForestClassifier(criterion='entropy')
 classifier.fit(X_train, Y_train)
 
 # Predicting new data
