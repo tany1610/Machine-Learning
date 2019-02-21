@@ -154,7 +154,7 @@ Quiz 5: K-Nearest Neighbor
 132. CAP Curve
 133. CAP Curve Analysis
 134. Conclusion of Part 3 - Classification
-## PART 4 - Clustering [CURRENT]
+## PART 4 - Clustering
 ### Section 18 (K-Means Clustering)
 136. K-Means Clustering Intuition
 137. K-Means Random Initialization Trap
@@ -180,4 +180,38 @@ Quiz 6: K-Means Clustering
 155. HC in R - Step 5
 Quiz 7: Hierarchical Clustering
 156. Conclusion of Part 4 - Clustering
-## PART 5 - (Assosiation Rule Learning)
+## PART 5 - Assosiation Rule Learning [CURRENT]
+### Section 20 (Apriori)
+158. Apriori Intuition
+159. How to get the dataset
+160. Apriori in R - Step 1
+161. Apriori in R - Step 2
+162. Apriori in R - Step 3
+163. Apriori in Python - Step 1
+164. Apriori in Python - Step 2
+165. Apriori in Python - Step 3
+### Section 21 (Eclat)
+166. Eclat Intuition
+167. How to get the dataset
+168. Eclat in R
+## PART 6 - Reinforsment Learning
+### Section 22 (Upper Confidence Bound (UCB))
+170. The Multi-Armed Bandit Problem
+171. Upper Confidence Bound (UCB) Intuition
+172. How to get the dataset
+173. Upper Confidence Bound in Python - Step 1
+174. Upper Confidence Bound in Python - Step 2
+175. Upper Confidence Bound in Python - Step 3
+176. Upper Confidence Bound in Python - Step 4
+177. Upper Confidence Bound in R - Step 1
+178. Upper Confidence Bound in R - Step 2
+179. Upper Confidence Bound in R - Step 3
+180. Upper Confidence Bound in R - Step 4
+### Section 23 (Thompson Sampling)
+181. Thompson Sampling Intuition
+182. Algorithm Comparison: UCB vs Thompson Sampling
+183. How to get the dataset
+184. Thompson Sampling in Python - Step 1
+185. Thompson Sampling in Python - Step 2
+186. Thompson Sampling in R - Step 1
+187. Thompson Sampling in R - Step 2
