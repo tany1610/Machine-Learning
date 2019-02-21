@@ -1,4 +1,4 @@
-# Classification Template
+# K Nearest Neighbour
 
 # Importing libraries
 import numpy as np
@@ -22,7 +22,9 @@ X_test = sc_X.transform(X_test)
 
 
 # Fitting the Classifier to the dataset
-# Build classifier here
+from sklearn.neighbors import KNeighborsClassifier
+classifier = KNeighborsClassifier(n_neighbors=10, p=2)
+classifier.fit(X_train, Y_train)
 
 # Predicting new data
 Y_pred = classifier.predict(X_test)
@@ -31,8 +33,7 @@ Y_pred = classifier.predict(X_test)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(Y_test, Y_pred)
 
-
-# Visualizing the Regression Training Set
+# Visualizing the Classification Training Set
 from matplotlib.colors import ListedColormap
 X_set, Y_set = X_train, Y_train
 X1, X2 = np.meshgrid(np.arange(start=X_set[:, 0].min() - 1, stop=X_set[:, 0].max() + 1, step=0.01), np.arange(start=X_set[:, 1].min() - 1, stop=X_set[:, 1].max() + 1, step=0.01))
@@ -41,14 +42,14 @@ plt.xlim(X1.min(), X1.max())
 plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(Y_set)):
     plt.scatter(X_set[Y_set == j, 0], X_set[Y_set == j, 1], c=ListedColormap(('red', 'green'))(i), label=j)
-plt.title('Classifier (Training set)')
+plt.title('K-NN (Training set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
 
 
-# Visualizing the Regression Testing Set
+# Visualizing the Classification Testing Set
 from matplotlib.colors import ListedColormap
 X_set, Y_set = X_test, Y_test
 X1, X2 = np.meshgrid(np.arange(start=X_set[:, 0].min() - 1, stop=X_set[:, 0].max() + 1, step=0.01), np.arange(start=X_set[:, 1].min() - 1, stop=X_set[:, 1].max() + 1, step=0.01))
@@ -57,7 +58,7 @@ plt.xlim(X1.min(), X1.max())
 plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(Y_set)):
     plt.scatter(X_set[Y_set == j, 0], X_set[Y_set == j, 1], c=ListedColormap(('red', 'green'))(i), label=j)
-plt.title('Classifier (Testing set)')
+plt.title('K-NN (Testing set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
