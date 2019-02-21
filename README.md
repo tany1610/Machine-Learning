@@ -80,7 +80,7 @@ Quiz 3: Multiple Linear Regression
 68. SVR Intuition
 69. SVR in Python
 70. SVR in R
-### Section 8 (Decision Tree Regression) [CURRENT]
+### Section 8 (Decision Tree Regression)
 71. Decision Tree Regression Intuition
 72. How to get the dataset
 73. Decision Tree Regression in Python
@@ -97,3 +97,87 @@ Quiz 3: Multiple Linear Regression
 82. Interpreting Linear Regression Coefficients
 83. Conclusion of Part 2 - Regression
 ## PART 3 - Classification
+### Section 11 (Logistic Regression)
+85. Logistic Regression Intuition
+86. How to get the dataset
+87. Logistic Regression in Python - Step 1
+88. Logistic Regression in Python - Step 2
+89. Logistic Regression in Python - Step 3
+90. Logistic Regression in Python - Step 4
+91. Logistic Regression in Python - Step 5
+92. Python Classification Template
+93. Logistic Regression in R - Step 1
+94. Logistic Regression in R - Step 2
+95. Logistic Regression in R - Step 3
+96. Logistic Regression in R - Step 4
+97. Logistic Regression in R - Step 5
+98. R Classification Template
+Quiz 4: Logistic Regression
+### Section 12 (K-Nearest-Neighbor(K-NN))
+99. K-Nearest Neighbor Intuition
+100. How to get the dataset
+101. K-NN in Python
+102. K-NN in R
+Quiz 5: K-Nearest Neighbor
+### Section 13 (Support Vector Machine)
+103. SVM Intuition
+104. How to get the dataset
+105. SVM in Python
+106. SVM in R
+### Section 13 (Kerenl-SVM)
+103. SVM Intuition
+104. How to get the dataset
+105. SVM in Python
+106. SVM in R
+### Section 14 (Naive Bayes)
+114. Bayes Theorem
+115. Naive Bayes Intuition
+116. Naive Bayes Intuition (Challenge Reveal)
+117. Naive Bayes Intuition (Extras)
+118. How to get the dataset
+119. Naive Bayes in Python
+120. Naive Bayes in R
+### Section 15 (Decision Tree Classification)
+121. Decision Tree Classification Intuition
+122. How to get the dataset
+123. Decision Tree Classification in Python
+124. Decision Tree Classification in R
+### Section 16 (Random Forest Classification)
+125. Random Forest Classification Intuition
+126. How to get the dataset
+127. Random Forest Classification in Python
+128. Random Forest Classification in R
+### Section 17 (Evaluating Classification Models Performance)
+129. False Positives & False Negatives
+130. Confusion Matrix
+131. Accuracy Paradox
+132. CAP Curve
+133. CAP Curve Analysis
+134. Conclusion of Part 3 - Classification
+## PART 4 - Clustering [CURRENT]
+### Section 18 (K-Means Clustering)
+136. K-Means Clustering Intuition
+137. K-Means Random Initialization Trap
+138. K-Means Selecting The Number Of Clusters
+139. How to get the dataset
+140. K-Means Clustering in Python
+141. K-Means Clustering in R
+Quiz 6: K-Means Clustering
+### Section 19 (Hierarchical Clustering)
+142. Hierarchical Clustering Intuition
+143. Hierarchical Clustering How Dendrograms Work
+144. Hierarchical Clustering Using Dendrograms
+145. How to get the dataset
+146. HC in Python - Step 1
+147. HC in Python - Step 2
+148. HC in Python - Step 3
+149. HC in Python - Step 4
+150. HC in Python - Step 5
+151. HC in R - Step 1
+152. HC in R - Step 2
+153. HC in R - Step 3
+154. HC in R - Step 4
+155. HC in R - Step 5
+Quiz 7: Hierarchical Clustering
+156. Conclusion of Part 4 - Clustering
+## PART 5 - (Assosiation Rule Learning)
